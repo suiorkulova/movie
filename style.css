@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+body {
+  background: url("https://cdn.neowin.com/news/images/uploaded/2023/05/1683747988_background-size1920x1080-4e1694a6-75aa-4c36-9d4d-7fb6a3102005-bc5318781aad7f5c8520.jpg");
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.iframe {
+  display: none;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header nav {
+  width: 620px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header nav img {
+  width: 120px;
+}
+#header {
+  background: #000;
+}
+
+.header nav a {
+  text-decoration: none;
+  color: #fff;
+}
+.header-icons {
+  width: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-icons span {
+  color: #fff;
+  font-size: 20px;
+}
+
+/* ? CREATE */
+#create {
+  padding: 20px 0 0 0;
+}
+.create {
+  display: flex;
+  justify-content: space-evenly;
+}
+h4 {
+  margin: 30px 0 10px 0;
+  color: #fff;
+}
+.main-edit {
+  display: none;
+  border-radius: 10px;
+  width: 230px;
+  height: 250px;
+  text-align: center;
+  background-color: rgb(0, 0, 0, 0.75);
+  position: relative;
+}
+.x {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 17px;
+  border: none;
+  background-color: rgb(0, 0, 0, 0.75);
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+.main-create {
+  border-radius: 10px;
+  width: 230px;
+  height: 250px;
+  text-align: center;
+  background-color: rgb(0, 0, 0, 0.75);
+}
+.box-input {
+  margin-bottom: 10px;
+}
+input {
+  background: #4c4a4a;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  color: #fff;
+}
+input::placeholder {
+  color: #aca5a5;
+}
+.btn_create,
+.btn_save {
+  padding: 5px 60px;
+  border: none;
+  background-color: #e50914;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.list_movies {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+  /* gap: 20px; */
+  align-items: center;
+}
+
+.card {
+  border-radius: 7px;
+  text-align: center;
+  padding: 8px 5px 5px 5px;
+  width: 135px;
+  height: 240px;
+  background-color: #504748;
+}
+
+.img {
+  width: 130px;
+  height: 190px;
+}
+.txt-box {
+  display: flex;
+  justify-content: space-around;
+}
+.txt-box p {
+  font-size: 14px;
+}
+.btn-box {
+  padding: 10px 0 0 0;
+  display: flex;
+  justify-content: space-around;
+}
+.btn-box button {
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #504748;
+}
+.btn-play {
+  color: rgb(88, 223, 88);
+}
+.btn-delete {
+  color: red;
+}
+.btn-edit {
+  color: rgb(9, 9, 250);
+}
+
+/* <iframe width="1838" height="807" src="https://www.youtube.com/embed/H6x2kccuNuk" title="Фильм &quot;Кудалар&quot; 2018 г. Официально!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */
